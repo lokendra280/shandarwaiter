@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "twentyfirsttech.sandarwaiter.waiter.app-mergeDebugResources-36:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/lokendra/.gradle/caches/transforms-3/d21e8d12ca40caac384ada9ee6099a5e/transformed/appcompat-1.5.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

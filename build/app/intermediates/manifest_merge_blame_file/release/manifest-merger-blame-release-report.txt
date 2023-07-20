@@ -1,0 +1,564 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="twentyfirsttech.sandarwaiter.waiter"
+4    android:versionCode="2"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:8:5-66
+17-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+18-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+19-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+19-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+20-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+21
+22    <queries>
+22-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+23        <intent>
+23-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+24            <action android:name="android.support.customtabs.action.CustomTabsService" />
+24-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+24-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+25        </intent>
+26    </queries>
+27
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+28-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+29-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+30    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+30-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+30-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+31    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+31-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+31-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+32-->[com.google.firebase:firebase-iid:21.1.0] /home/lokendra/.gradle/caches/transforms-3/6be0f77347a6a6d7ab88e20f8f4648f8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+32-->[com.google.firebase:firebase-iid:21.1.0] /home/lokendra/.gradle/caches/transforms-3/6be0f77347a6a6d7ab88e20f8f4648f8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+33
+34    <permission
+34-->[androidx.core:core:1.10.1] /home/lokendra/.gradle/caches/transforms-3/9b9308bac2bd06d9f50a4c0f74864c0c/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+35        android:name="twentyfirsttech.sandarwaiter.waiter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.10.1] /home/lokendra/.gradle/caches/transforms-3/9b9308bac2bd06d9f50a4c0f74864c0c/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.10.1] /home/lokendra/.gradle/caches/transforms-3/9b9308bac2bd06d9f50a4c0f74864c0c/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="twentyfirsttech.sandarwaiter.waiter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.10.1] /home/lokendra/.gradle/caches/transforms-3/9b9308bac2bd06d9f50a4c0f74864c0c/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.10.1] /home/lokendra/.gradle/caches/transforms-3/9b9308bac2bd06d9f50a4c0f74864c0c/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+39
+40    <application
+40-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:10:5-64:19
+41        android:allowBackup="false"
+41-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:14:9-36
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.10.1] /home/lokendra/.gradle/caches/transforms-3/9b9308bac2bd06d9f50a4c0f74864c0c/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+43        android:fullBackupContent="false"
+43-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:15:9-42
+44        android:icon="@mipmap/ic_launcher"
+44-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:16:9-43
+45        android:label="Sandar Waiter"
+45-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:11:9-38
+46        android:requestLegacyExternalStorage="true"
+46-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:12:9-52
+47        android:usesCleartextTraffic="true" >
+47-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:13:9-44
+48        <activity
+48-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:17:9-58:20
+49            android:name="twentyfirsttech.sandarwaiter.waiter.MainActivity"
+49-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:18:13-41
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:21:13-163
+51            android:exported="true"
+51-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:23:13-36
+52            android:hardwareAccelerated="true"
+52-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:22:13-47
+53            android:launchMode="singleTop"
+53-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:19:13-43
+54            android:theme="@style/LaunchTheme"
+54-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:20:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:24:13-55
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+63-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:29:13-32:17
+64                android:name="io.flutter.embedding.android.NormalTheme"
+64-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:30:15-70
+65                android:resource="@style/NormalTheme" />
+65-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:31:15-52
+66            <!--
+67                 Displays an Android View that continues showing the launch screen
+68                 Drawable until Flutter paints its first frame, then this splash
+69                 screen fades out. A splash screen is useful to avoid any visual
+70                 gap between the end of Android's launch screen and the painting of
+71                 Flutter's first frame.
+72            -->
+73            <meta-data
+73-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:38:13-41:17
+74                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+74-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:39:15-79
+75                android:resource="@drawable/launch_background" />
+75-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:40:15-61
+76
+77            <intent-filter>
+77-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:42:13-45:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:43:17-68
+78-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:43:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:44:17-76
+80-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:44:27-74
+81            </intent-filter>
+82            <intent-filter>
+82-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:46:13-49:29
+83                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+83-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:47:17-69
+83-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:47:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:48:17-76
+85-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:48:27-73
+86            </intent-filter>
+87            <intent-filter>
+87-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:50:13-57:29
+88                <data
+88-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:51:17-53:51
+89                    android:host="payment-return"
+89-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:52:21-50
+90                    android:scheme="mollie-app" />
+90-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:53:21-48
+91
+92                <action android:name="android.intent.action.VIEW" />
+92-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:54:17-69
+92-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:54:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:48:17-76
+94-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:48:27-73
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:56:17-78
+95-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:56:27-75
+96            </intent-filter>
+97        </activity>
+98        <!--
+99             Don't delete the meta-data below.
+100             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+101        -->
+102        <meta-data
+102-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:61:9-63:33
+103            android:name="flutterEmbedding"
+103-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:62:13-44
+104            android:value="2" />
+104-->/media/lokendra/21st/waiterappsinglevendor/android/app/src/main/AndroidManifest.xml:63:13-30
+105
+106        <service
+106-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+107            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+107-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+108            android:exported="false"
+108-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+109            android:permission="android.permission.BIND_JOB_SERVICE" />
+109-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+110        <service
+110-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+111            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+111-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+112            android:exported="false" >
+112-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+113            <intent-filter>
+113-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+114                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+114-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+114-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+115            </intent-filter>
+116        </service>
+117
+118        <receiver
+118-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+119            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+119-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+120            android:exported="true"
+120-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+121            android:permission="com.google.android.c2dm.permission.SEND" >
+121-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+122            <intent-filter>
+122-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+123                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+123-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+123-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+124            </intent-filter>
+125        </receiver>
+126
+127        <service
+127-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+128            android:name="com.google.firebase.components.ComponentDiscoveryService"
+128-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.3.2] /home/lokendra/.gradle/caches/transforms-3/7a800177b64d7f59fc115796289fe94f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+130            android:exported="false" >
+130-->[com.google.firebase:firebase-iid:21.1.0] /home/lokendra/.gradle/caches/transforms-3/6be0f77347a6a6d7ab88e20f8f4648f8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
+131            <meta-data
+131-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+132                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+132-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+134            <meta-data
+134-->[:firebase_core] /media/lokendra/21st/waiterappsinglevendor/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+135                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+135-->[:firebase_core] /media/lokendra/21st/waiterappsinglevendor/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[:firebase_core] /media/lokendra/21st/waiterappsinglevendor/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-iid:21.1.0] /home/lokendra/.gradle/caches/transforms-3/6be0f77347a6a6d7ab88e20f8f4648f8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+138                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+138-->[com.google.firebase:firebase-iid:21.1.0] /home/lokendra/.gradle/caches/transforms-3/6be0f77347a6a6d7ab88e20f8f4648f8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-iid:21.1.0] /home/lokendra/.gradle/caches/transforms-3/6be0f77347a6a6d7ab88e20f8f4648f8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+141                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+141-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-installations:17.1.3] /home/lokendra/.gradle/caches/transforms-3/5b39c8a74a032db2ddc329b732bc3fc5/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+144                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+144-->[com.google.firebase:firebase-installations:17.1.3] /home/lokendra/.gradle/caches/transforms-3/5b39c8a74a032db2ddc329b732bc3fc5/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-installations:17.1.3] /home/lokendra/.gradle/caches/transforms-3/5b39c8a74a032db2ddc329b732bc3fc5/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-datatransport:18.1.7] /home/lokendra/.gradle/caches/transforms-3/30f5306765a52df711962c7170cc01da/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+147                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+147-->[com.google.firebase:firebase-datatransport:18.1.7] /home/lokendra/.gradle/caches/transforms-3/30f5306765a52df711962c7170cc01da/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-datatransport:18.1.7] /home/lokendra/.gradle/caches/transforms-3/30f5306765a52df711962c7170cc01da/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+149        </service>
+150
+151        <provider
+151-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+152            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+152-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+153            android:authorities="twentyfirsttech.sandarwaiter.waiter.flutterfirebasemessaginginitprovider"
+153-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+154            android:exported="false"
+154-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+155            android:initOrder="99" />
+155-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+156
+157        <activity
+157-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+158            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+158-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+159            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+159-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+160            android:exported="false"
+160-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+161            android:theme="@style/AppTheme" />
+161-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+162        <activity
+162-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+163            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+163-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+164            android:exported="false"
+164-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+165            android:theme="@style/ThemeTransparent" />
+165-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+166        <activity
+166-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+167            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+167-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+168            android:exported="false"
+168-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+169            android:theme="@style/ThemeTransparent" />
+169-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+170        <activity
+170-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+171            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+171-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+172            android:exported="false"
+172-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+173            android:launchMode="singleInstance"
+173-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+174            android:theme="@style/ThemeTransparent" />
+174-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+175        <activity
+175-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+176            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+176-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+177            android:exported="false"
+177-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+178            android:launchMode="singleInstance"
+178-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+179            android:theme="@style/ThemeTransparent" />
+179-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+180
+181        <receiver
+181-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+182            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+182-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+183            android:enabled="true"
+183-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+184            android:exported="false" />
+184-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+185
+186        <meta-data
+186-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+187            android:name="io.flutter.embedded_views_preview"
+187-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+188            android:value="true" />
+188-->[:flutter_inappwebview] /media/lokendra/21st/waiterappsinglevendor/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+189
+190        <provider
+190-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+191            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+191-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+192            android:authorities="twentyfirsttech.sandarwaiter.waiter.flutter.image_provider"
+192-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+193            android:exported="false"
+193-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+194            android:grantUriPermissions="true" >
+194-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+195            <meta-data
+195-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+196                android:name="android.support.FILE_PROVIDER_PATHS"
+196-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+197                android:resource="@xml/flutter_image_picker_file_paths" />
+197-->[:image_picker_android] /media/lokendra/21st/waiterappsinglevendor/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+198        </provider>
+199
+200        <receiver
+200-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+201            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+201-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+202            android:exported="false" />
+202-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+203        <receiver
+203-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+204            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+204-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+205            android:exported="false" />
+205-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+206        <receiver
+206-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+207            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+207-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+208            android:exported="false" >
+208-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+209            <intent-filter>
+209-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+210                <action android:name="android.intent.action.BOOT_COMPLETED" />
+210-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+210-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+211                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+211-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+211-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+212                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+212-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+212-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+213                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+213-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+213-->[:flutter_local_notifications] /media/lokendra/21st/waiterappsinglevendor/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+214            </intent-filter>
+215        </receiver>
+216        <receiver
+216-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+217            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+217-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+218            android:exported="true"
+218-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+219            android:permission="com.google.android.c2dm.permission.SEND" >
+219-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+220            <intent-filter>
+220-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+221                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+221-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+221-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+222            </intent-filter>
+223        </receiver>
+224        <!--
+225             FirebaseMessagingService performs security checks at runtime,
+226             but set to not exported to explicitly avoid allowing another app to call it.
+227        -->
+228        <service
+228-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+229            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+229-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+230            android:directBootAware="true"
+230-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+231            android:exported="false" >
+231-->[com.google.firebase:firebase-messaging:23.1.2] /home/lokendra/.gradle/caches/transforms-3/7e18ad2a76ebebc520231087bb2046f5/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+232            <intent-filter android:priority="-500" >
+232-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+233                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+233-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+233-->[:firebase_messaging] /media/lokendra/21st/waiterappsinglevendor/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+234            </intent-filter>
+235        </service>
+236
+237        <provider
+237-->[com.google.firebase:firebase-common:20.3.2] /home/lokendra/.gradle/caches/transforms-3/7a800177b64d7f59fc115796289fe94f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+238            android:name="com.google.firebase.provider.FirebaseInitProvider"
+238-->[com.google.firebase:firebase-common:20.3.2] /home/lokendra/.gradle/caches/transforms-3/7a800177b64d7f59fc115796289fe94f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+239            android:authorities="twentyfirsttech.sandarwaiter.waiter.firebaseinitprovider"
+239-->[com.google.firebase:firebase-common:20.3.2] /home/lokendra/.gradle/caches/transforms-3/7a800177b64d7f59fc115796289fe94f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+240            android:directBootAware="true"
+240-->[com.google.firebase:firebase-common:20.3.2] /home/lokendra/.gradle/caches/transforms-3/7a800177b64d7f59fc115796289fe94f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+241            android:exported="false"
+241-->[com.google.firebase:firebase-common:20.3.2] /home/lokendra/.gradle/caches/transforms-3/7a800177b64d7f59fc115796289fe94f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+242            android:initOrder="100" />
+242-->[com.google.firebase:firebase-common:20.3.2] /home/lokendra/.gradle/caches/transforms-3/7a800177b64d7f59fc115796289fe94f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+243
+244        <activity
+244-->[com.google.android.gms:play-services-base:18.0.1] /home/lokendra/.gradle/caches/transforms-3/cc3d379c68d9d5906943055399b130ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+245            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+245-->[com.google.android.gms:play-services-base:18.0.1] /home/lokendra/.gradle/caches/transforms-3/cc3d379c68d9d5906943055399b130ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+246            android:exported="false"
+246-->[com.google.android.gms:play-services-base:18.0.1] /home/lokendra/.gradle/caches/transforms-3/cc3d379c68d9d5906943055399b130ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+247            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+247-->[com.google.android.gms:play-services-base:18.0.1] /home/lokendra/.gradle/caches/transforms-3/cc3d379c68d9d5906943055399b130ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+248
+249        <meta-data
+249-->[com.google.android.gms:play-services-basement:18.1.0] /home/lokendra/.gradle/caches/transforms-3/0e074c7e9667b42dc3bdd9a968dcafda/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+250            android:name="com.google.android.gms.version"
+250-->[com.google.android.gms:play-services-basement:18.1.0] /home/lokendra/.gradle/caches/transforms-3/0e074c7e9667b42dc3bdd9a968dcafda/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+251            android:value="@integer/google_play_services_version" />
+251-->[com.google.android.gms:play-services-basement:18.1.0] /home/lokendra/.gradle/caches/transforms-3/0e074c7e9667b42dc3bdd9a968dcafda/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+252
+253        <provider
+253-->[androidx.emoji2:emoji2:1.2.0] /home/lokendra/.gradle/caches/transforms-3/f6bce773ba499dcd71572e147869e4ff/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+254            android:name="androidx.startup.InitializationProvider"
+254-->[androidx.emoji2:emoji2:1.2.0] /home/lokendra/.gradle/caches/transforms-3/f6bce773ba499dcd71572e147869e4ff/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+255            android:authorities="twentyfirsttech.sandarwaiter.waiter.androidx-startup"
+255-->[androidx.emoji2:emoji2:1.2.0] /home/lokendra/.gradle/caches/transforms-3/f6bce773ba499dcd71572e147869e4ff/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+256            android:exported="false" >
+256-->[androidx.emoji2:emoji2:1.2.0] /home/lokendra/.gradle/caches/transforms-3/f6bce773ba499dcd71572e147869e4ff/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+257            <meta-data
+257-->[androidx.emoji2:emoji2:1.2.0] /home/lokendra/.gradle/caches/transforms-3/f6bce773ba499dcd71572e147869e4ff/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+258                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+258-->[androidx.emoji2:emoji2:1.2.0] /home/lokendra/.gradle/caches/transforms-3/f6bce773ba499dcd71572e147869e4ff/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+259                android:value="androidx.startup" />
+259-->[androidx.emoji2:emoji2:1.2.0] /home/lokendra/.gradle/caches/transforms-3/f6bce773ba499dcd71572e147869e4ff/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+260            <meta-data
+260-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/lokendra/.gradle/caches/transforms-3/fb1588686ef91c7094baa840db829839/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+261                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+261-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/lokendra/.gradle/caches/transforms-3/fb1588686ef91c7094baa840db829839/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+262                android:value="androidx.startup" />
+262-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/lokendra/.gradle/caches/transforms-3/fb1588686ef91c7094baa840db829839/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+263            <meta-data
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+264                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+265                android:value="androidx.startup" />
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+266        </provider>
+267
+268        <uses-library
+268-->[androidx.window:window:1.0.0-beta04] /home/lokendra/.gradle/caches/transforms-3/0f52761b6706538c53740a804f68cef6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+269            android:name="androidx.window.extensions"
+269-->[androidx.window:window:1.0.0-beta04] /home/lokendra/.gradle/caches/transforms-3/0f52761b6706538c53740a804f68cef6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+270            android:required="false" />
+270-->[androidx.window:window:1.0.0-beta04] /home/lokendra/.gradle/caches/transforms-3/0f52761b6706538c53740a804f68cef6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+271        <uses-library
+271-->[androidx.window:window:1.0.0-beta04] /home/lokendra/.gradle/caches/transforms-3/0f52761b6706538c53740a804f68cef6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+272            android:name="androidx.window.sidecar"
+272-->[androidx.window:window:1.0.0-beta04] /home/lokendra/.gradle/caches/transforms-3/0f52761b6706538c53740a804f68cef6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+273            android:required="false" />
+273-->[androidx.window:window:1.0.0-beta04] /home/lokendra/.gradle/caches/transforms-3/0f52761b6706538c53740a804f68cef6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+274
+275        <receiver
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+276            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+276-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+277            android:directBootAware="false"
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+278            android:enabled="true"
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+279            android:exported="true"
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+280            android:permission="android.permission.DUMP" >
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+281            <intent-filter>
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+282                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+283            </intent-filter>
+284            <intent-filter>
+284-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+285                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+286            </intent-filter>
+287            <intent-filter>
+287-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+288                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+289            </intent-filter>
+290            <intent-filter>
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+291                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lokendra/.gradle/caches/transforms-3/ce503c40783ec6472dc8eb544906d48c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+292            </intent-filter>
+293        </receiver>
+294
+295        <service
+295-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/lokendra/.gradle/caches/transforms-3/398a48fec44784ec33f35e188f390e32/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+296            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+296-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/lokendra/.gradle/caches/transforms-3/398a48fec44784ec33f35e188f390e32/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+297            android:exported="false" >
+297-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/lokendra/.gradle/caches/transforms-3/398a48fec44784ec33f35e188f390e32/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+298            <meta-data
+298-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/lokendra/.gradle/caches/transforms-3/398a48fec44784ec33f35e188f390e32/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+299                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+299-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/lokendra/.gradle/caches/transforms-3/398a48fec44784ec33f35e188f390e32/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+300                android:value="cct" />
+300-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/lokendra/.gradle/caches/transforms-3/398a48fec44784ec33f35e188f390e32/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+301        </service>
+302        <service
+302-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/lokendra/.gradle/caches/transforms-3/ddc3ac2e44935e2b22337d49864b7ab6/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+303            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+303-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/lokendra/.gradle/caches/transforms-3/ddc3ac2e44935e2b22337d49864b7ab6/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+304            android:exported="false"
+304-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/lokendra/.gradle/caches/transforms-3/ddc3ac2e44935e2b22337d49864b7ab6/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+305            android:permission="android.permission.BIND_JOB_SERVICE" >
+305-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/lokendra/.gradle/caches/transforms-3/ddc3ac2e44935e2b22337d49864b7ab6/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+306        </service>
+307
+308        <receiver
+308-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/lokendra/.gradle/caches/transforms-3/ddc3ac2e44935e2b22337d49864b7ab6/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+309            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+309-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/lokendra/.gradle/caches/transforms-3/ddc3ac2e44935e2b22337d49864b7ab6/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+310            android:exported="false" />
+310-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/lokendra/.gradle/caches/transforms-3/ddc3ac2e44935e2b22337d49864b7ab6/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+311    </application>
+312
+313</manifest>

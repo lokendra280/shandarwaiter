@@ -1,0 +1,222 @@
+{
+  "project_info": {
+    "project_number": "360097262724",
+    "project_id": "test-2674b",
+    "storage_bucket": "test-2674b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360097262724:android:7c934b3d65f615caca26d1",
+        "android_client_info": {
+          "package_name": "com.twentyfirsttech.shandarkitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360097262724-vg004ii3tt46mrrunkhuv1g898hrv36l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twentyfirsttech.shandarkitchen",
+            "certificate_hash": "d72ed5ea9b4faa752b187e198102c344bfa1806a"
+          }
+        },
+        {
+          "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUrJA0SxAXbcTvj9eAeZaP9D7RjELmGBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360097262724-hi48hn4u621g520qglq816e70fvl6am2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pinkth3floyd.KrishiGaneshmanIOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360097262724:android:e00f8b5fc7f01013ca26d1",
+        "android_client_info": {
+          "package_name": "com.twentyfirsttech.shandarrider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUrJA0SxAXbcTvj9eAeZaP9D7RjELmGBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360097262724-hi48hn4u621g520qglq816e70fvl6am2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pinkth3floyd.KrishiGaneshmanIOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360097262724:android:7aef0e65076764d6ca26d1",
+        "android_client_info": {
+          "package_name": "twentyfirsttech.sandarcafa.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360097262724-mbo5u0duhmmu4n3oqlq337tuavcg7rkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "twentyfirsttech.sandarcafa.user",
+            "certificate_hash": "d72ed5ea9b4faa752b187e198102c344bfa1806a"
+          }
+        },
+        {
+          "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUrJA0SxAXbcTvj9eAeZaP9D7RjELmGBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360097262724-hi48hn4u621g520qglq816e70fvl6am2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pinkth3floyd.KrishiGaneshmanIOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360097262724:android:4032dd5db8969443ca26d1",
+        "android_client_info": {
+          "package_name": "twentyfirsttech.sandarcafe.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360097262724-sfeamccvbv91143re07cbcm9vrmuh3qo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "twentyfirsttech.sandarcafe.user",
+            "certificate_hash": "d72ed5ea9b4faa752b187e198102c344bfa1806a"
+          }
+        },
+        {
+          "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUrJA0SxAXbcTvj9eAeZaP9D7RjELmGBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360097262724-hi48hn4u621g520qglq816e70fvl6am2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pinkth3floyd.KrishiGaneshmanIOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360097262724:android:8705a2407d9cabb1ca26d1",
+        "android_client_info": {
+          "package_name": "twentyfirsttech.sandarwaiter.waiter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360097262724-hng4p9dr530dfpb53c2l63se7i88r42d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "twentyfirsttech.sandarwaiter.waiter",
+            "certificate_hash": "d72ed5ea9b4faa752b187e198102c344bfa1806a"
+          }
+        },
+        {
+          "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUrJA0SxAXbcTvj9eAeZaP9D7RjELmGBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360097262724-dtfcn3rfpl6lb0pd3eeund16g5tdtq69.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360097262724-hi48hn4u621g520qglq816e70fvl6am2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pinkth3floyd.KrishiGaneshmanIOS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-1.0.0-beta04-0 /home/lokendra/.gradle/caches/transforms-3/0f52761b6706538c53740a804f68cef6/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-annotation-experimental-1.1.0-1 /home/lokendra/.gradle/caches/transforms-3/6447390a96a2ffe1032e3b3ba406c243/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-2 /home/lokendra/.gradle/caches/transforms-3/88d88608e8755e6f7657f731c735f4b3/transformed/core-1.6.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-java-1.0.0-beta04-3 /home/lokendra/.gradle/caches/transforms-3/f84efd8209e62c1777bdd436d0475b75/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-main-4 /home/lokendra/.pub-cache/hosted/pub.dev/connectivity_plus-3.0.6/android/src/main/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-release-5 /home/lokendra/.pub-cache/hosted/pub.dev/connectivity_plus-3.0.6/android/src/release/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 /media/lokendra/21st/waiterappsinglevendor/build/connectivity_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 /media/lokendra/21st/waiterappsinglevendor/build/connectivity_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 /media/lokendra/21st/waiterappsinglevendor/build/connectivity_plus/generated/res/rs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 /media/lokendra/21st/waiterappsinglevendor/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 /media/lokendra/21st/waiterappsinglevendor/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 /media/lokendra/21st/waiterappsinglevendor/build/connectivity_plus/intermediates/merged_res/release

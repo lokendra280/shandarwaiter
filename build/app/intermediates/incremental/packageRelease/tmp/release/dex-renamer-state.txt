@@ -1,0 +1,4 @@
+#Wed Jul 19 21:41:20 NPT 2023
+base.0=/media/lokendra/21st/waiterappsinglevendor/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
